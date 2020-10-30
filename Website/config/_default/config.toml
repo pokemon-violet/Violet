@@ -1,0 +1,19 @@
+baseURL = "http://example.org"
+title = "Hugo Zdoc Theme"
+theme = "zdoc"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+copyright = "&copy; {year} by Pokémon Violet, All Rights Reserved"
+timeout = 10000
+enableEmoji = true
+paginate = 13
+rssLimit = 100
+
+googleAnalytics = ""
+
+disableKinds = ["taxonomyTerm"]
+
+[taxonomies]
+  tag = "tags"

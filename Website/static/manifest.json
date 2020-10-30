@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Hugo Zdoc theme",
+  "short_name": "Hugo Zdoc theme",
+  "version": "1.0.0",
+  "default_locale": "en",
+  "description": "Hugo simple documentation theme",
+  "start_url": "https://themes.gohugo.io/theme/hugo-theme-zdoc/",
+  "theme_color": "#0071bc",
+  "background_color": "#fff",
+  "display": "standalone"
+}

@@ -1,0 +1,5 @@
+[[main]]
+  identifier = "dex"
+  name = "PokéDex"
+  url = "dex"
+  weight = 1

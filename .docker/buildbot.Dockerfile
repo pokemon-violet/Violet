@@ -25,6 +25,11 @@ RUN \
         dpkg -i pacman.deb; \
         dkp-pacman -S --noconfirm gba-dev; \
         rm pacman.deb;
+RUN \
+        wget https://github.com/gohugoio/hugo/releases/download/v0.76.5/hugo_0.76.5_Linux-64bit.deb -O hugo.deb; \
+        dpkg -i hugo.deb; \
+        rm hugo.deb;
+
 ENV DEVKITPRO /opt/devkitpro
 ENV DEVKITARM ${DEVKITPRO}/devkitARM
 ENV DEVKITPPC ${DEVKITPRO}/devkitPPC

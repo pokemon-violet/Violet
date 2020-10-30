@@ -77,3 +77,6 @@ ipch/
 
 # Pokeapi cache
 Violet/pokeapi_cache/
+
+# Hugo Website
+Website/public/
