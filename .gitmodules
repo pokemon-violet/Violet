@@ -1,3 +1,4 @@
 [submodule "Website/themes/zdoc"]
 	path = Website/themes/zdoc
 	url = https://github.com/zzossig/hugo-theme-zdoc.git
+	branch = master
